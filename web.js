@@ -15,7 +15,7 @@ app.use(express.static('/css'));
 app.use(express.static('/vendor'));
 app.use(express.static('/vendor/bootstrap'));
 app.use(express.static('/js'));
-app.use(express.static('/public/css'));
+app.use(express.static('/public'));
 
 buf = fs.readFileSync("index.html","utf-8");
 
