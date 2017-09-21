@@ -19,7 +19,7 @@ app.get('/', function(request, response) {
 });
 
 index2 = fs.readFileSync("index2.html","utf-8");
-app.get('index2', function(request, response) {
+app.get('/index2', function(request, response) {
   response.send(index2.toString('utf8', 0, index2.length));
 });
 
