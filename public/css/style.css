@@ -199,7 +199,7 @@ fieldset[disabled] .btn-md.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: #222222; /*  was transparent 
+    background-color: #222222; /*  was transparent
     padding: 25px 0;*/
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -226,7 +226,7 @@ fieldset[disabled] .btn-md.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/header-bg-tenure.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
