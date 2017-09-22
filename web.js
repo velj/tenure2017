@@ -40,7 +40,7 @@ buf = fs.readFileSync("index.html","utf-8");
 app.get('/',
  passport.authenticate('basic', { session: false }),
  function(request, response) {
-  response.json({ username: request.user.username, email: request.user.emails[0].value });
+  response.send(buf.toString('utf8', 0, buf.length));
   //response.send(buf.toString('utf8', 0, buf.length));
 });
 
