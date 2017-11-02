@@ -27,7 +27,7 @@ passport.use(new Strategy(
 
 
 var app = express.createServer(express.logger());
-var buf = new Buffer(256,"utf-8");
+//var buf = new Buffer(256,"utf-8");
 
 app.use(express.static(__dirname + '/public'));
 app.use(express.static('images'));
@@ -35,17 +35,17 @@ app.use(express.static('js'));
 app.use(express.static('img'));
 app.use(express.static('public'));
 
-buf = fs.readFileSync("index.html","utf-8");
+//buf = fs.readFileSync("index.html","utf-8");
 
-app.get('/',
- passport.authenticate('basic', { session: false }),
- function(request, response) {
-  response.send(buf.toString('utf8', 0, buf.length));
-  //response.send(buf.toString('utf8', 0, buf.length));
-});
+//app.get('/',
+// passport.authenticate('basic', { session: false }),
+// function(request, response) {
+//  response.send(buf.toString('utf8', 0, buf.length));
+//  //response.send(buf.toString('utf8', 0, buf.length));
+//});
 
 index2 = fs.readFileSync("index2.html","utf-8");
-app.get('/index2', function(request, response) {
+app.get('/', function(request, response) {
   response.send(index2.toString('utf8', 0, index2.length));
 });
 

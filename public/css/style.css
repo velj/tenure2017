@@ -1,8 +1,5 @@
 /*!
- * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- original color- #fed136
+
  */
 body {
   overflow-x: hidden;
@@ -227,7 +224,7 @@ fieldset[disabled] .btn-md.active {
   }
 }
 header {
-  background-image: url('/img/header-bg-tenure.jpg');
+  background-image: url('/img/header-bg-tenure1.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -306,17 +303,17 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
-#portfolio .portfolio-item {
+#pedagogy .pedagogy-item {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#pedagogy .pedagogy-item .pedagogy-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#pedagogy .pedagogy-item .pedagogy-link .pedagogy-hover {
   background: rgba(254, 209, 54, 0.9);
   position: absolute;
   width: 100%;
@@ -326,10 +323,10 @@ section h3.section-subheading {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#pedagogy .pedagogy-item .pedagogy-link .pedagogy-hover:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#pedagogy .pedagogy-item .pedagogy-link .pedagogy-hover .pedagogy-hover-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -339,35 +336,35 @@ section h3.section-subheading {
   margin-top: -12px;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#pedagogy .pedagogy-item .pedagogy-link .pedagogy-hover .pedagogy-hover-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#pedagogy .pedagogy-item .pedagogy-link .pedagogy-hover .pedagogy-hover-content h3,
+#pedagogy .pedagogy-item .pedagogy-link .pedagogy-hover .pedagogy-hover-content h4 {
   margin: 0;
 }
-#portfolio .portfolio-item .portfolio-caption {
+#pedagogy .pedagogy-item .pedagogy-caption {
   max-width: 400px;
   margin: 0 auto;
   background-color: white;
   text-align: center;
   padding: 25px;
 }
-#portfolio .portfolio-item .portfolio-caption h4 {
+#pedagogy .pedagogy-item .pedagogy-caption h4 {
   text-transform: none;
   margin: 0;
 }
-#portfolio .portfolio-item .portfolio-caption p {
+#pedagogy .pedagogy-item .pedagogy-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
 }
-#portfolio * {
+#pedagogy * {
   z-index: 2;
 }
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #pedagogy .pedagogy-item {
     margin: 0 0 30px;
   }
 }
@@ -620,6 +617,7 @@ section#contact .text-danger {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color:#4b3190
 }
 footer span.copyright {
   line-height: 40px;
@@ -662,12 +660,12 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
-.portfolio-modal .modal-dialog {
+.pedagogy-modal .modal-dialog {
   margin: 0;
   height: 100%;
   width: auto;
 }
-.portfolio-modal .modal-content {
+.pedagogy-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
   -webkit-box-shadow: none;
@@ -677,27 +675,27 @@ ul.social-buttons li a:active {
   padding: 100px 0;
   text-align: center;
 }
-.portfolio-modal .modal-content h2 {
+.pedagogy-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
 }
-.portfolio-modal .modal-content p {
+.pedagogy-modal .modal-content p {
   margin-bottom: 30px;
 }
-.portfolio-modal .modal-content p.item-intro {
+.pedagogy-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
-.portfolio-modal .modal-content ul.list-inline {
+.pedagogy-modal .modal-content ul.list-inline {
   margin-bottom: 30px;
   margin-top: 0;
 }
-.portfolio-modal .modal-content img {
+.pedagogy-modal .modal-content img {
   margin-bottom: 30px;
 }
-.portfolio-modal .close-modal {
+.pedagogy-modal .close-modal {
   position: absolute;
   width: 75px;
   height: 75px;
@@ -706,10 +704,10 @@ ul.social-buttons li a:active {
   right: 25px;
   cursor: pointer;
 }
-.portfolio-modal .close-modal:hover {
+.pedagogy-modal .close-modal:hover {
   opacity: 0.3;
 }
-.portfolio-modal .close-modal .lr {
+.pedagogy-modal .close-modal .lr {
   height: 75px;
   width: 1px;
   margin-left: 35px;
@@ -721,7 +719,7 @@ ul.social-buttons li a:active {
   /* Safari and Chrome */
   z-index: 1051;
 }
-.portfolio-modal .close-modal .lr .rl {
+.pedagogy-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
   background-color: #222222;
@@ -732,7 +730,7 @@ ul.social-buttons li a:active {
   /* Safari and Chrome */
   z-index: 1052;
 }
-.portfolio-modal .modal-backdrop {
+.pedagogy-modal .modal-backdrop {
   opacity: 0;
   display: none;
 }
@@ -758,16 +756,16 @@ body {
 
 
 
-#portfolio .portfolio-item {
+#pedagogy .pedagogy-item {
   right: 0;
   margin: 0 0 15px; }
-  #portfolio .portfolio-item .portfolio-link {
+  #pedagogy .pedagogy-item .pedagogy-link {
     position: relative;
     display: block;
     max-width: 400px;
     margin: 0 auto;
     cursor: pointer; }
-    #portfolio .portfolio-item .portfolio-link .caption {
+    #pedagogy .pedagogy-item .pedagogy-link .caption {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -776,9 +774,9 @@ body {
       transition: all ease 0.5s;
       opacity: 0;
       background: rgba(24, 188, 156, 0.9); }
-      #portfolio .portfolio-item .portfolio-link .caption:hover {
+      #pedagogy .pedagogy-item .pedagogy-link .caption:hover {
         opacity: 1; }
-      #portfolio .portfolio-item .portfolio-link .caption .caption-content {
+      #pedagogy .pedagogy-item .pedagogy-link .caption .caption-content {
         font-size: 20px;
         position: absolute;
         top: 50%;
@@ -787,20 +785,20 @@ body {
         margin-top: -12px;
         text-align: center;
         color: white; }
-        #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+        #pedagogy .pedagogy-item .pedagogy-link .caption .caption-content i {
           margin-top: -12px; }
-        #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-        #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+        #pedagogy .pedagogy-item .pedagogy-link .caption .caption-content h3,
+        #pedagogy .pedagogy-item .pedagogy-link .caption .caption-content h4 {
           margin: 0; }
 
-#portfolio * {
+#pedagogy * {
   z-index: 2; }
 
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #pedagogy .pedagogy-item {
     margin: 0 0 30px; } }
 
-.portfolio-modal .modal-dialog {
+.pedagogy-modal .modal-dialog {
   max-width: 100%;
   min-height: 100%;
   margin: 0;
@@ -811,19 +809,19 @@ body {
   background-clip: border-box;
   -webkit-box-shadow: none;
   box-shadow: none; }
-  .portfolio-modal .modal-dialog .modal-content {
+  .pedagogy-modal .modal-dialog .modal-content {
     padding: 100px 0;
     border: 0;
     border-radius: 0; }
-    .portfolio-modal .modal-dialog .modal-content h2 {
+    .pedagogy-modal .modal-dialog .modal-content h2 {
       font-size: 3em;
       margin: 0; }
-    .portfolio-modal .modal-dialog .modal-content img {
+    .pedagogy-modal .modal-dialog .modal-content img {
       margin-bottom: 30px; }
-    .portfolio-modal .modal-dialog .modal-content .item-details {
+    .pedagogy-modal .modal-dialog .modal-content .item-details {
       margin: 30px 0; }
 
-.portfolio-modal .close-modal {
+.pedagogy-modal .close-modal {
   position: absolute;
   top: 25px;
   right: 25px;
@@ -831,9 +829,9 @@ body {
   height: 75px;
   cursor: pointer;
   background-color: transparent; }
-  .portfolio-modal .close-modal:hover {
+  .pedagogy-modal .close-modal:hover {
     opacity: 0.3; }
-  .portfolio-modal .close-modal .lr {
+  .pedagogy-modal .close-modal .lr {
     /* Safari and Chrome */
     z-index: 1051;
     width: 1px;
@@ -844,7 +842,7 @@ body {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     background-color: #2C3E50; }
-    .portfolio-modal .close-modal .lr .rl {
+    .pedagogy-modal .close-modal .lr .rl {
       /* Safari and Chrome */
       z-index: 1052;
       width: 1px;
@@ -855,7 +853,7 @@ body {
       transform: rotate(90deg);
       background-color: #2C3E50; }
 
-.portfolio-modal .modal-backdrop {
+.pedagogy-modal .modal-backdrop {
   display: none;
   opacity: 0; }
 
