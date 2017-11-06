@@ -12,7 +12,7 @@ body {
   color: #fdbb30;
 }
 p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.75;
 }
 p.large {
@@ -539,6 +539,7 @@ section h3.section-subheading {
   text-align: center;
   margin-bottom: 50px;
 }
+
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
@@ -551,7 +552,39 @@ section h3.section-subheading {
 .team-member p {
   margin-top: 0;
 }
+/* NEW */
 
+.team-member  .team-member-hover {
+  background: rgba(254, 209, 54, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+.team-member.team-member-link .team-member-hover:hover {
+  opacity: 1;
+}
+.team-member .team-member-link .team-member-hover .team-member-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: black;
+}
+.team-member .team-member-link .team-member-hover .team-member-hover-content i {
+  margin-top: -12px;
+}
+.team-member .team-member-link .team-member-hover .team-member-hover-content h3,
+.team-member .team-member-link .team-member-hover .team-member-hover-content h4 {
+  margin: 0;
+}
+/* NEW END */
 .img-circle {
   margin: 0 auto;
 
@@ -899,3 +932,67 @@ body {
 
 .floating-label-form-group-with-focus label {
   color: #18BC9C; }
+
+
+
+
+  #pedagogy1 .pedagogy1-item {
+    margin: 0 0 15px;
+    right: 0;
+  }
+  #pedagogy1 .pedagogy1-item .pedagogy1-link {
+    display: block;
+    position: relative;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  #pedagogy1 .pedagogy1-item .pedagogy1-link .pedagogy1-hover {
+    background: rgba(254, 209, 54, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+  }
+  #pedagogy1 .pedagogy1-item .pedagogy1-link .pedagogy1-hover:hover {
+    opacity: 1;
+  }
+  #pedagogy1 .pedagogy1-item .pedagogy1-link .pedagogy1-hover .pedagogy1-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: white;
+  }
+  #pedagogy1 .pedagogy1-item .pedagogy1-link .pedagogy1-hover .pedagogy1-hover-content i {
+    margin-top: -12px;
+  }
+  #pedagogy1 .pedagogy1-item .pedagogy1-link .pedagogy1-hover .pedagogy1-hover-content h3,
+  #pedagogy1 .pedagogy1-item .pedagogy1-link .pedagogy1-hover .pedagogy1-hover-content h4 {
+    margin: 0;
+  }
+  #pedagogy1 .pedagogy1-item .pedagogy1-caption {
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+  }
+  #pedagogy1 .pedagogy1-item .pedagogy1-caption h4 {
+    text-transform: none;
+    margin: 0;
+  }
+  #pedagogy1 .pedagogy1-item .pedagogy1-caption p {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    margin: 0;
+  }
+  #pedagogy1 * {
+    z-index: 2;
+  }
