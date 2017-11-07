@@ -3,7 +3,7 @@
  */
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;    /*"Roboto Slab", */
 }
 .text-muted {
   color: #777777;
@@ -12,11 +12,16 @@ body {
   color: #fdbb30;
 }
 p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.75;
 }
 p.large {
-  font-size: 16px;
+  font-size: 18px;
+}
+
+li{
+font-size: 18px;
+
 }
 a,
 a:hover,
@@ -384,6 +389,7 @@ section h3.section-subheading {
   margin-left: -1.5px;
 }
 .timeline > li {
+  font-size: 16px;
   margin-bottom: 50px;
   position: relative;
   min-height: 50px;
@@ -485,7 +491,7 @@ section h3.section-subheading {
     margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
-    font-size: 13px;
+    font-size: 18px;
     margin-top: 16px;
     line-height: 18px;
   }
@@ -995,4 +1001,27 @@ body {
   }
   #pedagogy1 * {
     z-index: 2;
+  }
+
+  .btn-secondary {
+    color: white;
+    background-color: #4b3190;
+    border-color: #4b3190;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .btn-secondary:hover,
+  .btn-secondary:focus,
+  .btn-secondary:active,
+  .btn-secondary.active,
+  .open .dropdown-toggle.btn-secondary {
+    color: white;
+    background-color: #4b3190;
+    border-color: #4b3190;
+  }
+  .btn-secondary:active,
+  .btn-secondary.active,
+  .open .dropdown-toggle.btn-secondary {
+    background-image: none;
   }
